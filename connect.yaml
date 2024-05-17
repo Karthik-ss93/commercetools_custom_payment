@@ -32,7 +32,20 @@ deployAs:
           description: JWT Issuer for jwt validation
           required: true
           default: https://mc-api.europe-west1.gcp.commercetools.com
+        - key: PAYPAL_CLIENT_ID
+          description: Paypal client ID
+          required: true
+        - key: PAYPAL_WEBHOOK_ID
+          description: Paypal webhook ID
+          required: true
+        - key: PAYPAL_ENVIRONMENT
+          description: Payment environment (live/test)
+          required: true
       securedConfiguration:
         - key: CTP_CLIENT_SECRET
           description: commercetools client secret
           required: true
+        - key: PAYPAL_CLIENT_SECRET
+          description: Paypal client secret
+          required: true
+
