@@ -35,17 +35,7 @@ deployAs:
         - key: NOVALNET_SIGNATURE
           description: Novalnet signature
           required: true
-        - key: PAYPAL_WEBHOOK_ID
-          description: Paypal webhook ID
-          required: true
-        - key: PAYPAL_ENVIRONMENT
-          description: Payment environment (live/test)
-          required: true
-      securedConfiguration:
-        - key: CTP_CLIENT_SECRET
-          description: commercetools client secret
-          required: true
-        - key: PAYPAL_CLIENT_SECRET
-          description: Paypal client secret
+        - key: NOVALNET_ACCESS_KEY
+          description: Novalnet access key
           required: true
 
