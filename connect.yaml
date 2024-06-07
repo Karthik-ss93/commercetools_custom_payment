@@ -32,8 +32,8 @@ deployAs:
           description: JWT Issuer for jwt validation
           required: true
           default: https://mc-api.europe-west1.gcp.commercetools.com
-        - key: PAYPAL_CLIENT_ID
-          description: Paypal client ID
+        - key: NOVALNET_SIGNATURE
+          description: Novalnet signature
           required: true
         - key: PAYPAL_WEBHOOK_ID
           description: Paypal webhook ID
